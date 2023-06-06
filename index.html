@@ -10,13 +10,35 @@
 <body>
     <header>
     </header>
+<!-- 
+    Commençons par l'élément de mise en page le plus basique dans Bootstrap, le conteneur (container). 
+    Envelopper vos contenus dans un élément  avec la classe     .container      permet de centrer votre contenu 
+    à l’écran en y ajoutant des marges horizontales automatiques. 
+    De ce fait, la classe .container permet d’aérer la lecture horizontale du contenu de votre site web.
 
-    <article>
+    Si vous voulez que le contenu occupe toujours 100 % de la largeur de l’écran, vous pouvez utiliser 
+    la classe   .container-fluid    à la place. Cela permet d’enlever les marges horizontales appliquées par défaut par le framework.
+
+    IMPORTANT : Depuis Bootstrap 5, de nouveaux containers sont arrivés :  .container-{breakpoint}  (exemple :   .container-lg). 
+    Ils permettent d’adapter votre “container” en fonction de la taille d’écran de l’utilisateur. 
+    Rendez-vous sur la documentation Bootstrap 5 pour en savoir plus.
+-->
+
+    <article class = 'container'>
+        <div class="row">
+            <div class="col">
+              Première colonne
+            </div>
+            <div class="col">
+              Deuxième colonne
+            </div>
+            <div class="col">
+              Troisième colonne
+            </div>
+          </div>
     </article>
 
-    <aside>
-    </aside>
-
+    
 
  <!-- Bootstrap JS bundle  
       Certains composants de Bootstrap utilisent JavaScript, en particulier la bibliothèque Popper.js, ainsi 
